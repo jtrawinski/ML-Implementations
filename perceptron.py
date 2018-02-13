@@ -45,6 +45,7 @@ class Perceptron:
                 # all points are correctly classified
                 break
         self.w = w
+        self.w_history = w_history
         self.b = b
         self.data = x
         self.labels = y
